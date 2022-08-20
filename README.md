@@ -15,6 +15,12 @@
   (setq sideline-backends-right '(sideline-color)))
 ```
 
+## 🔧 Customization
+
+#### 🧪 Variables
+
+* `sideline-color-text` - String to display color.
+
 ## Contribute
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
