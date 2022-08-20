@@ -8,7 +8,12 @@
 
 ## 🔨 Quickstart
 
-WIP
+```elisp
+(leaf sideline
+  :hook (after-init-hook . sideline-mode)
+  :init
+  (setq sideline-backends-right '(sideline-color)))
+```
 
 ## Contribute
 
