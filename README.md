@@ -9,8 +9,8 @@
 ## 🔨 Quickstart
 
 ```elisp
-(leaf sideline
-  :hook (after-init-hook . sideline-mode)
+(use-package sideline
+  :hook (after-init . sideline-mode)
   :init
   (setq sideline-backends-right '(sideline-color)))
 ```
