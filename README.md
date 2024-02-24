@@ -11,7 +11,7 @@
 ## 🔨 Quickstart
 
 ```elisp
-(use-package sideline
+(use-package sideline-color
   :hook (after-init . sideline-mode)
   :init
   (setq sideline-backends-right '(sideline-color)))
