@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "sideline-color"
          "0.1.0"
          "Show color information with sideline")
